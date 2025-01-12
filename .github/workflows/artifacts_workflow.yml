@@ -30,7 +30,7 @@ jobs:
         uses: aws-actions/aws-cloudformation-github-deploy@v1
         with:
           name: uda-artifact
-          template: uda-artifact.yml
+          template: udatest.yml
           no-fail-on-empty-changeset: "1"
 
       - name: Upload Files to s3 bucket
