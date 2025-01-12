@@ -1,15 +1,15 @@
 name: Dynamic Workflow and Upload Files
 on:
   workflow_dispatch:
-  inputs:
-    index_document:
-      description: 'Name of Index document'
-      required: true
-      default: 'index.html'
-    error_document:
-      description: 'Name of Error document'
-      required: true
-      default: 'error.html'
+    inputs:
+      index_document:
+        description: 'Name of Index document'
+        required: true
+        default: 'index.html'
+      error_document:
+        description: 'Name of Error document'
+        required: true
+        default: 'error.html'
 
 env:
   BUCKET_NAME: website-artifacts
