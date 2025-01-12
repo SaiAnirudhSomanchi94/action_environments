@@ -12,7 +12,7 @@ on:
         default: 'error.html'
 
 env:
-  BUCKET_NAME: website-artifacts
+  BUCKET_NAME: uda-iye-bucket
 jobs:
   build:
     runs-on: ubuntu-latest
